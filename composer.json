@@ -1,0 +1,14 @@
+{
+    "name": "web-und-mobile/symfony-console-demo",
+    "description": "Symfony Console Demo",
+    "version": "1.0.0",
+    "require": {
+        "symfony/console": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebUndMobile\\SymfonyConsoleDemo\\": "Classes/"
+        },
+        "classmap": ["Classes"]
+    }
+}
